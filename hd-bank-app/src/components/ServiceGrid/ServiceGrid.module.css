@@ -1,0 +1,38 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px 10px;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+  
+  .iconWrapper {
+    width: 60px;
+    height: 60px;
+    border-radius: var(--radius-m);
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 24px;
+    background: linear-gradient(160deg, var(--primary), var(--primary-2));
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .service:hover .iconWrapper {
+      transform: scale(1.1);
+      box-shadow: var(--shadow-md);
+  }
+  
+  .label {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1.3;
+  }

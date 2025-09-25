@@ -1,0 +1,8 @@
+.topBar { position: sticky; top: 0; z-index: 10; height: 52px; display: flex; align-items: center; justify-content: space-between; padding: 0 12px; background: rgba(255,255,255,0.9); backdrop-filter: saturate(140%) blur(8px); border-bottom: 1px solid var(--border-color); }
+.leftGroup { display: flex; gap: 8px; align-items: center; }
+.leftBtn { width: 36px; height: 36px; display: grid; place-items: center; background: #fff; border: 1px solid var(--border-color); border-radius: 10px; color: var(--primary); cursor: pointer; }
+.brandLogo { height: 24px; width: auto; max-width: 140px; object-fit: contain; display: block; }
+.rightGroup { display: flex; gap: 8px; margin-left: auto; }
+.iconBtn { width: 32px; height: 32px; display: grid; place-items: center; background: #fff; border: 1px solid var(--border-color); border-radius: 10px; color: var(--primary); cursor: pointer; }
+.iconBtn:hover, .leftBtn:hover { border-color: var(--primary-light); box-shadow: var(--shadow-sm); }
+

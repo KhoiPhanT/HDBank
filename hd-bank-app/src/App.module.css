@@ -1,0 +1,26 @@
+.app {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr var(--footer-h);
+    overflow: auto;
+    position: relative;
+  }
+  .content {
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .sectionTitle {
+    margin: 12px 0 4px;
+    font-weight: 800;
+    font-size: 20px;
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .logoInline {
+    height: 33px;
+    width: auto;
+    vertical-align: -4px;
+  }

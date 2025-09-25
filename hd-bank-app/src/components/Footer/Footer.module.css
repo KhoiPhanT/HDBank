@@ -1,0 +1,47 @@
+.footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+    height: var(--footer-h);
+    background: #ffffff;
+    border-top: 1px solid var(--border-color);
+    box-shadow: 0 -4px 12px rgba(16, 24, 40, 0.03);
+  }
+  
+  .tabbar {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .tabbarItem {
+    background: transparent;
+    border: none;
+    font: inherit;
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 0;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .tabbarItem .icon {
+    font-size: 22px;
+  }
+  
+  .tabbarItem .label {
+    font-size: 12px;
+  }
+  
+  .tabbarItem:hover {
+    color: var(--primary);
+  }
+  
+  .tabbarItem.active {
+    color: var(--primary);
+    font-weight: 700;
+  }

@@ -1,0 +1,11 @@
+.header { position: sticky; top: 0; z-index: 10; height: var(--header-h); backdrop-filter: saturate(140%) blur(8px); background: rgba(255, 255, 255, 0.85); border-bottom: 1px solid var(--border-color); }
+.headerInner { max-width: 1100px; margin: 0 auto; height: 100%; display: flex; align-items: center; gap: 12px; padding: 0 16px; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 800; }
+.logoImg { height: 40px; width: auto; display: block; }
+.tabs { margin-left: 8px; display: flex; gap: 10px; }
+.tab { padding: 8px 12px; border-radius: 999px; font-weight: 600; color: var(--muted); background: transparent; border: none; cursor: pointer; transition: color 0.2s ease, background-color 0.2s ease; }
+.tab:hover { color: var(--primary); }
+.tab.active { color: var(--primary); background: var(--primary-light); }
+.headerActions { margin-left: auto; display: flex; gap: 10px; }
+.iconBtn { width: 40px; height: 40px; border-radius: var(--radius-s); border: 1px solid var(--border-color); display: grid; place-items: center; background: #fff; cursor: pointer; font-size: 16px; color: var(--muted); transition: all 0.2s ease; }
+.iconBtn:hover { color: var(--primary); border-color: var(--primary-light); transform: translateY(-2px); box-shadow: var(--shadow-sm); }

@@ -1,0 +1,3 @@
+export const mainServices = [ { label: 'Đóng học phí' }, { label: 'Đặt sân Golf' }, { label: 'Apple Pay' }, { label: 'Khách sạn' }, { label: 'Mua vé máy bay' }, { label: 'Mua thẻ game' }, { label: 'Nạp Data' }, { label: 'đổi Token' }, ];
+export const additionalServices = [ { label: 'Bảo hiểm' }, { label: 'Đầu tư' }, { label: 'Tiết kiệm' }, { label: 'Thanh toán HĐ' }, { label: 'Ví điện tử' }, { label: 'Hoá đơn điện' }, ];
+export const otherUtilities = [ { label: 'Nộp phạt GT' }, { label: 'Đóng BHXH' }, { label: 'Đặt vé tàu' }, { label: 'Tặng quà' }, ];
